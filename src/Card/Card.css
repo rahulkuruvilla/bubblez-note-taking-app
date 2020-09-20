@@ -1,0 +1,70 @@
+.card {
+        display: block;
+        flex-basis: 1000px;
+        flex-grow: 1;
+        margin: 0 100px;
+        padding: 10px 0;
+
+        color: white;
+    }
+
+    .card .title {
+        display: block;
+        padding: 20px;
+
+        font-size: 72px;
+
+        background: darkslateblue;
+    }
+
+    .card .property {
+        display: block;
+        padding: 20px;
+
+        font-size: 24px;
+        color: black;
+
+        background: lightgray;
+    }
+
+    .card .new-property {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+
+            background: steelblue;
+        }
+
+        .card .new-property input {
+            flex-basis: inherit;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+
+        .card .new-property button {
+            flex-basis: 150px;
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+    .card .new-child {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 20px;;
+            padding-bottom: 20px;
+
+            background: steelblue;
+        }
+
+        .card .new-child select {
+            flex-basis: inherit;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+
+        .card .new-child button {
+            flex-basis: 150px;
+            flex-grow: 0;
+            flex-shrink: 0;
+        }

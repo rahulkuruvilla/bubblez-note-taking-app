@@ -1,0 +1,32 @@
+input {
+    display: inline-block;
+    height: 20px;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+select {
+    display: inline-block;
+    height: 40px;
+    margin: 0 10px;
+}
+
+button {
+    display: inline-block;
+    height: 40px;
+    padding: 0 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    background: gold;
+}
+
+button:hover {
+    background: white;
+}
+
+.app {
+  background: ghostwhite;
+}
+
+
